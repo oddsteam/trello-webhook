@@ -1,0 +1,4 @@
+FROM node:16.13.0-alpine
+WORKDIR /app
+COPY . .
+EXPOSE 7111

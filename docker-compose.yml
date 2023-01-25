@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  trello-webhook:
+    container_name: trello-webhook
+    build: .
+    restart: always
+    command: sh -c "node ./index.js"
+    ports:
+      - 7111:7111
