@@ -6,7 +6,7 @@ const port = 7111;
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!!!");
+  res.send("LeSSeX Trello Webhook App listening");
 });
 
 app.head("/callback", (req, res) => {
