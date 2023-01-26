@@ -2,3 +2,4 @@ node_modules
 build
 prisma/*.db
 prisma/*.db-journal
+burndown.db
