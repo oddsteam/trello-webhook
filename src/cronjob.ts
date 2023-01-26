@@ -3,11 +3,11 @@ import { constructChartData, generateChart } from "./chart"
 import { notiToDiscord } from "./discord"
 
 export const startCronjob = () => {
-    cronjobShowBurndownChart()
+    cronjobShowBurndownChartTeamBlackCat()
 }
 
-const cronjobShowBurndownChart = async () => {
-    const burndownDataThisSprint = await getBurndownDataThisSprint()
+const cronjobShowBurndownChartTeamBlackCat = async () => {
+    const burndownDataThisSprint = await getBurndownDataThisSprint("BlackCat")
     if (!burndownDataThisSprint.length) {
         return
     }
