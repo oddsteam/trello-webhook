@@ -1,5 +1,6 @@
 import express from "express";
 
+
 export const startApplication = () => {
   const app = express();
   const port = 7111;
