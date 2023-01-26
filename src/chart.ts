@@ -21,6 +21,5 @@ export const generateChart = (data: ChartData) => {
     const points = data.points
     const title = `${data.team} Sprint ${data.sprint}`
     const url = `https://quickchart.io/chart/render/sm-cda6b60d-1c7b-4155-9917-82730f66e1db?title=${title}&labels=${labels}&data1=${points}`
-    console.log(url)
     return url
 }
